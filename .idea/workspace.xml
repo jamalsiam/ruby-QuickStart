@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f7e26ba-b87f-42b0-a981-79335292437f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hash.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Constant&amp;Range.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Array.rb" afterPath="$PROJECT_DIR$/Array.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,17 +15,18 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/untitled@Array.coverage" NAME="Array Coverage Results" MODIFIED="1507572906154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="untitled" />
     <SUITE FILE_PATH="coverage/untitled@FirstApp.coverage" NAME="FirstApp Coverage Results" MODIFIED="1507563776801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="untitled" />
+    <SUITE FILE_PATH="coverage/untitled@Constant_Range.coverage" NAME="Constant&amp;Range Coverage Results" MODIFIED="1507587800138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="untitled" />
     <SUITE FILE_PATH="coverage/untitled@variableString.coverage" NAME="variableString Coverage Results" MODIFIED="1507569015542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="untitled" />
     <SUITE FILE_PATH="coverage/untitled@Hash.coverage" NAME="Hash Coverage Results" MODIFIED="1507586561086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="untitled" />
     <SUITE FILE_PATH="coverage/untitled@variables.coverage" NAME="variables Coverage Results" MODIFIED="1507564413168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="untitled" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Hash.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Hash.rb">
+      <file leaf-file-name="Constant&amp;Range.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Constant&amp;Range.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            <state relative-caret-position="316">
+              <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -45,6 +45,8 @@
         <option value="$PROJECT_DIR$/variableString.rb" />
         <option value="$PROJECT_DIR$/Array.rb" />
         <option value="$PROJECT_DIR$/Hash.rb" />
+        <option value="$PROJECT_DIR$/constant_and_range.rb" />
+        <option value="$PROJECT_DIR$/Constant&amp;Range.rb" />
       </list>
     </option>
   </component>
@@ -108,7 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Ruby.Hash">
+  <component name="RunManager" selected="Ruby.Constant&amp;Range">
     <configuration name="Array" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="untitled" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -127,7 +129,7 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Array.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
     </configuration>
-    <configuration name="FirstApp" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="Constant&amp;Range" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="untitled" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
@@ -142,7 +144,7 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/FirstApp.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Constant&amp;Range.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
     </configuration>
     <configuration name="Hash" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
@@ -200,19 +202,19 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.FirstApp" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.variables" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.variableString" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.Array" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.Hash" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.variables" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.variableString" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.Array" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.Hash" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.Constant&amp;Range" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.Hash" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.Array" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.variableString" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.variables" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.FirstApp" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.Constant&amp;Range" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.variables" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.Hash" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.Array" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.variableString" />
       </list>
     </recent_temporary>
   </component>
@@ -228,12 +230,12 @@
       <option name="presentableId" value="Default" />
       <updated>1507563228318</updated>
       <workItem from="1507563231186" duration="6000" />
-      <workItem from="1507563268339" duration="9572000" />
+      <workItem from="1507563268339" duration="10776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9578000" />
+    <option name="totallyTimeSpent" value="10782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="69" y="44" width="1287" height="704" extended-state="0" />
@@ -261,12 +263,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.rb" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -311,10 +316,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/constant_and_range">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Hash.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constant_and_range.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Constant&amp;Range.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding />
         </state>
       </provider>
