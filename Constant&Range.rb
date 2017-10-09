@@ -9,7 +9,7 @@ puts range.include?(1); #true
 puts range.include?(5); #true
 puts range.include?(10);#true
 puts range.include?(11);#false
-puts range.exclude_end?;#false
+puts range.exclude_end?#false
 puts range.begin;
 puts range.end;
 
