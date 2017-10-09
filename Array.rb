@@ -17,23 +17,24 @@ puts arr;
 arr<<14;
 arr.push(34);
 puts "*"
-puts arr
+puts arr;
 puts "*"
 
 #delete from array
 arr.delete_at(2); #delete by endex
-arr.delete(1) # delete by value
-arr.pop #delete last index
-puts arr
+arr.delete(1); # delete by value
+arr.pop ;#delete last index
+puts arr;
 
 #some method
+puts arr.class;
 puts "*"
-puts arr.sort
+puts arr.sort;
 puts "*"
-puts arr.uniq
+puts arr.uniq;
 
 #method spilt
-str="my name is jamal"
+str="my name is jamal";
 puts str.split("m") # puts=>["","y na","e","e is ja","al"]:=spilt dived string to array where pattern is defined
 
 
